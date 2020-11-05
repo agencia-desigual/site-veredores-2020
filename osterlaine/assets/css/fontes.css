@@ -1,0 +1,64 @@
+@font-face
+{
+  font-family: "flexo";
+	src: url('fontes/flexo/regular.otf');
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+/* BLACK ----------------------------------- */
+@font-face
+{
+    font-family: "flexo";
+    src: url('fontes/flexo/black.otf');
+    font-weight: 900;
+}
+
+
+/* BOLD ----------------------------------- */
+@font-face
+{
+    font-family: "flexo";
+    src: url('fontes/flexo/bold.otf');
+
+    font-weight: bold;
+}
+
+
+
+/* LIGHT ----------------------------------- */
+@font-face
+{
+    font-family: "flexo";
+    src: url('fontes/flexo/light.otf');
+    font-weight: 100;
+}
+
+
+
+/* MEDIUM ----------------------------------- */
+@font-face
+{
+    font-family: "flexo";
+    src: url('fontes/flexo/medium.otf');
+    font-weight: 500;
+}
+
+
+/* HEAVY ----------------------------------- */
+@font-face
+{
+    font-family: "flexo";
+    src: url('fontes/flexo/heavy.otf');
+    font-weight: 700;
+}
+
+
+
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */

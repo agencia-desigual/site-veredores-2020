@@ -1,0 +1,214 @@
+@import "fontes.css";
+
+html,body
+{
+    font-family: "flexo";
+    font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "flexo";
+    font-weight: 700;
+}
+
+.container
+{
+    max-width: 800px;
+}
+
+img{max-width: 100%;}
+
+
+/* BARRA -----------------------------------------*/
+.barra
+{
+    position: fixed;
+    z-index: 999;
+    bottom: 0px; left: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+.barra .amarelo
+{
+    width: calc(50% - 150px);
+    float: left;
+    height: 100%;
+    background: #d8de3e;
+    text-align: right;
+}
+
+.barra .amarelo img
+{
+    padding: 6px 30px;
+    max-height: 77px;
+}
+
+
+.barra .azul
+{
+    width: 300px;
+    float: left;
+    height: 100%;
+    background: #508c31;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra .branco
+{
+    width: calc(50% - 150px);
+    height: 100%;
+    float: left;
+    background: #fff;
+}
+
+.barra .branco img
+{
+    padding: 15px 30px;
+}
+
+/* HEADER -----------------------------------------*/
+header
+{
+    background: #508c31;
+    padding: 10px 0px;
+}
+
+header a
+{
+    margin: 11px 4px;
+    display: inline-block;
+}
+
+header a i
+{
+    color: #fff;
+    font-size: 2em;
+}
+
+
+/* BANNER -----------------------------------------*/
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* JUVENTUDE --------------------------------------*/
+.juventude
+{
+    background-color: #508c31;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.juventude h1{text-align: center; padding-bottom: 40px;}
+
+
+/* TRANSPARENCIA -----------------------------------*/
+.transparencia {padding: 50px 0px;}
+
+.transparencia .trans
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.transparencia p {color: #808183;}
+
+
+/* CORAGEM -----------------------------------------*/
+
+.coragem
+{
+    background-color: #d8de3e;
+    color: #fff;
+    padding: 50px 0px;
+}
+
+.coragem h2
+{
+    color: #508c31;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+}
+
+.coragem p{color: #508c31;}
+
+.coragem img
+{
+    margin-bottom: -1px;
+}
+
+
+/* PROPOSTAS -----------------------------------------*/
+
+.proposta
+{padding: 40px 0px;}
+
+.proposta h2
+{
+    text-align: center;
+    color: #2b5ca1;
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+
+.proposta p
+{
+    color: #808183;
+}
+
+.proposta p img
+{
+    padding-right: 10px;
+}
+
+
+/* CONQUISTAS -----------------------------------------*/
+
+.conquista
+{
+    background-color: #e0ba40;
+    padding: 40px 0px 50px;
+}
+
+.conquista h2
+{
+    color: #2b5ca1;
+    padding-bottom: 30px;
+}
+
+.conquista .conq3
+{
+    padding-top: 30px;
+}
+
+.conquista .imagens img
+{
+    padding: 0px 20px;
+}
+
+
+/* FOOTER -----------------------------------------*/
+footer
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+footer img
+{
+    padding-bottom: 20px;
+}
